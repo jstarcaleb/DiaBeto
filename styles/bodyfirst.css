@@ -79,4 +79,38 @@
 
 
 
+@media(max-width:750px){
+  .lower-portion{
+    grid-template-columns: 1fr 1fr ;
+  }
+  .shape{
+    width: 100%;
+  }
+  .preview{
+    grid-template-columns: 1fr 1fr;
+    margin-top: -320px;
+    width: 100%;
+  }
+}
 
+@media(min-width:750px) and (max-width:999px){
+  .lower-portion{
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+  .preview{
+    grid-template-columns: 1fr 1fr 1fr;
+    margin-top: -300px;
+  }
+  .shape{
+    width: 100%;
+  }
+}
+
+@media(min-width:1000px ){
+  .lower-portion{
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+  }
+  .preview{
+    margin-top: -100px;
+  }
+}

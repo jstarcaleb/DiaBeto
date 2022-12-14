@@ -12,8 +12,9 @@
   border-bottom-style: solid;
   border-bottom-color: rgb(238, 230, 230);
   z-index: 100;
-  
+  width: 100%;
   font-family: Lato,sans-serif;
+  text-align: center;
 }
 .hamburger-menu{
   height: 24px;
@@ -71,7 +72,10 @@ body{
 
 .home-icon{
   height: 28px;
-  margin-left: 50px;
+  margin-left: 100px;
+}
+.home-icon:hover{
+  
 }
 .notifications-icon{
   height: 24px;
@@ -178,20 +182,4 @@ p:hover{
 }
 
 
-@media(max-width:750px){
-  .lower-portion{
-    grid-template-columns: 700px 1fr 1fr;
-  }
-}
 
-@media(min-width:750px) and (max-width:999px){
-  .lower-portion{
-    grid-template-columns: 1fr 1fr 1fr;
-  }
-}
-
-@media(min-width:1000px ){
-  .lower-portion{
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-  }
-}
