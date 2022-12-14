@@ -1,0 +1,82 @@
+.middle-portion{
+  height: 350px;
+  display: grid;
+  border-bottom-width: 1px;
+  border-bottom-style: solid;
+  border-bottom-color: rgb(238, 230, 230);
+  margin-top: 70px;
+  align-items: center;
+  background-color:grey;
+
+  
+}
+
+.welcome-text{
+  font-size: 100px;
+  text-align: center;
+  padding-left: 20px;
+}
+
+  
+.lower-portion {
+  margin-top: -1px;
+  border: none;
+  pointer-events: none;
+  white-space: nowrap;
+  
+  column-gap: 20px;
+  row-gap: 20px ;
+  height: 600px; 
+}
+
+.feature1{
+  width:100% ;
+}
+
+
+.preview{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  column-gap: 20px;
+  row-gap: 10px;
+  background-color: rgb(238, 230, 230);
+  
+}
+.shape{
+  background-color: rgb(143, 108, 21);
+  margin-bottom: 40px;
+  display: flex;
+  margin-top: 40px;
+  margin-left: 40px;
+  margin-right: 40px;
+  height: 200px;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+  font-size: 30px
+}
+.text-el1,.text-el2,.text-el3,.text-el4,.text-el5,.text-el6{
+  cursor: pointer;
+}
+.text-el1:hover,.text-el2:hover,.text-el3:hover,.text-el4:hover,.text-el5:hover,.text-el6:hover{
+  opacity: 0.8;
+  font-size: 35px;
+  transition: 0.3s;
+}
+.text-el1:active,.text-el2:active,.text-el3:active,.text-el4:active,.text-el5:active,.text-el6:active{
+  opacity: 0.6;
+}
+
+.logout-icon{
+  width: 30px;
+}
+.account1{
+  width: 30px;
+}
+.twitter-icon{
+  width: 30px;
+}
+
+
+
+

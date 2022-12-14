@@ -1,0 +1,110 @@
+*{
+  font-family:'Lato',sans-serif;
+  
+}
+
+body{
+  font-family: 'Lato',sans-serif;
+  background-size: cover;
+  background-image: url("Darkwall.jpg");
+  
+}
+.login{
+  margin: 100% auto;
+  width: 300px;
+  padding: 60px;
+  background-color: rgb(172, 185, 184);
+  border-radius: 10px;
+  margin-bottom: 200px;
+  margin-top: 200px;
+
+  
+}
+
+.logo{
+  background-color: goldenrod;
+  width: 200px;
+  height: 200px;
+  border-radius: 100px;
+  margin:0 auto;
+  margin-bottom: 10px ;
+}
+
+.logo img{
+  width:100% ;
+}
+.title, .subtitle{
+  text-align: center;
+  color: grey;
+}
+.title{
+  font-weight: bolder;
+  font-size: 35px;
+}
+.subtitle{
+  font-size: 18px;
+}
+
+
+.form{
+  width: 100%;
+  margin-top: 30px;
+}
+.form input{
+  font-size: 15px;
+  padding: 10px 20px 10px 5px ;
+  border: none;
+  outline: none;
+  background: none;
+}
+.username, .password{
+  display: block;
+  border-radius: 30px;
+  border: 1px solid rgb(0,0,0,0.2);
+  padding: 15px;
+  margin:10px 0;
+  
+}
+.form svg{
+  height: 25px;
+  margin-bottom: -5px;
+  margin-left: 10px;
+  margin-right: 5px;
+}
+.options{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between ;
+  padding: 5px 0px;
+  margin-bottom: 30px;
+  
+}
+button.signin-btn{
+  width:100%;
+  padding: 20px 10px;
+  border: none;
+  font-size: 18px;
+  border-radius: 30px;
+  background-color: green;
+  color: white;
+  margin-bottom: 30px;
+  cursor: pointer;
+}
+button.signin-btn:hover{
+  opacity: 0.8;
+}
+button.signin-btn:active{
+  opacity: 0.6;
+}
+
+.sign-up{
+  text-align: center;
+
+}
+a{
+  text-decoration: none;
+  color: rgb(80, 79, 79);
+}
+p{
+  text-align: center;
+}

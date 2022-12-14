@@ -1,0 +1,76 @@
+body{
+  background-image: url("DiaBeto-logos.jpeg");
+  font-family: 'Lato', sans-serif;
+}
+
+.sign-up{
+  width: 360px;
+  height: 500px;
+  margin: auto;
+  background-color: white; 
+}
+
+h1{
+  text-align: center;
+  padding-top: 15px;
+
+
+}
+
+form{
+  width: 300px;
+  margin-left: 20px;
+}
+
+form  label{
+  display: flex;
+  margin-top: 20px;
+  font-size: 18px;
+}
+
+form input{
+  width: 100%;
+  padding: 7px;
+  border: none;
+  border: 1px solid grey;
+  border-radius: 6px;
+  outline: none;
+}
+
+.button-el{
+  width: 320px;
+  height: 35px;
+  margin-top: 20px;
+  border: none;
+  background-color: #49c1a2;
+  color: white;
+  font-size:18px;
+  cursor: pointer;
+  border-radius: 4px;
+}
+.button-el:hover{
+  opacity: 0.8;
+}
+
+.button-el:active{
+  opacity: 0.6;
+}
+
+
+p{
+  text-align: center;
+  padding-top: 20px;
+  font-size: 15px;
+}
+
+.already{
+  text-align: center;
+  color: white;
+  font-size: 15px;
+  margin-top: -10px;
+}
+
+.already a{
+  color:black;
+
+}
