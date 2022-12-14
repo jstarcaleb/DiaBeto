@@ -9,5 +9,5 @@ hamburgerEl.addEventListener("click", function(){
 })
 
 logout.addEventListener("click", function(){
-  document.location.href="homepage.html"
+  document.location.href="index.html"
 })
