@@ -39,7 +39,7 @@
   grid-template-columns: 1fr 1fr 1fr;
   column-gap: 20px;
   row-gap: 10px;
-  background-color: rgb(238, 230, 230);
+  background-color: rgb(209, 238, 247);
   
 }
 .shape{
@@ -62,6 +62,7 @@
   opacity: 0.8;
   font-size: 35px;
   transition: 0.3s;
+  box-shadow: 3px 3px 20px #03e9f4;
 }
 .text-el1:active,.text-el2:active,.text-el3:active,.text-el4:active,.text-el5:active,.text-el6:active{
   opacity: 0.6;
