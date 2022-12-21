@@ -108,3 +108,13 @@ a{
 p{
   text-align: center;
 }
+
+.eye{
+  display: flex;
+  justify-content: right;
+  margin-top: -35px;
+  align-items: center;
+  margin-right: 20px;
+}
+
+

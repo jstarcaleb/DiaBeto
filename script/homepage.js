@@ -1,6 +1,7 @@
 const inputEl = document.getElementById("input-el");
 const passwordEl = document.getElementById("password-el");
 const loginEl = document.querySelector(".signin-btn");
+const eYe = document.querySelector(".eye")
 
 loginEl.addEventListener("click", function(){
   if(inputEl.value == "caleb" && passwordEl.value == "ama"){
@@ -12,3 +13,14 @@ loginEl.addEventListener("click", function(){
   }
   
 })
+
+eYe.addEventListener("mousedown",function(){
+  console.log("clicked")
+  if (passwordEl.type == 'password'){
+    passwordEl.type ="text"
+  }
+  else{
+    passwordEl.type="password"
+  }
+})
+
