@@ -6,6 +6,9 @@ const test = document.querySelector(".text-el1")
 const specialist = document.querySelector(".text-el2")
 const contactEl = document.querySelector(".contact-icon")
 const Homer = document.querySelector(".home-icon")
+var userflex = localStorage.getItem('username')
+const welcomeMessage = document.querySelector(".middle-portion")
+
 
 hamburgerEl.addEventListener("click", function(){
   navbar.classList.toggle("change");
@@ -35,3 +38,13 @@ contactEl.addEventListener("click", function(){
 Homer.addEventListener("click", function(){
   window.scrollTo(0,0);
 })
+
+welcomeMessage.innerHTML = `We've been expecting you
+, ${userflex}!`
+
+welcomeMessage.style.fontSize="70px"
+welcomeMessage.style.textAlign="center"
+welcomeMessage.style.fontFamily="lato","sans-serif"
+
+
+

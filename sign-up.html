@@ -20,20 +20,30 @@
         <input type="text" required name="" id="first-name" />
         <label for="">Last Name</label>
         <input type="text" required name="" id="last-name" />
+        <label for="">Username</label>
+        <input type="text" required name="" id="userName" />
         <label for="">Email</label>
-        <input type="email" required />
+        <input type="email" required id="email-el"/>
         <label for="">Password</label>
-        <input type="password" required />
-        <button class="button-el">Submit</button>
+        <input type="password" required id="password-el" />
+        
+        <div class="eye" >
+          <p id="toggle-button">Show Password</p> 
+        </div>
+        
+        
+        
+        <button a class="button-el" onclick="registration()" >Submit</button>
       </form>
-      <p>
+      <p class="text">
         By clicking the Sign Up button,you agree to our <br />
         <a href="termsandconditions.html" target="_blank">Terms and conditions</a>
       </p>
+      <p class="already">
+        Already have an account?&nbsp;&nbsp;&nbsp;<a href="index.html">Login</a>
+      </p>
     </div>
-    <p class="already">
-      Already have an account?&nbsp;&nbsp;&nbsp;<a href="index.html">Login</a>
-    </p>
+    
     <script src="script/sign-up.js"></script>
   </body>
 </html>

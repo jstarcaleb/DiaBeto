@@ -54,10 +54,10 @@ body{
   align-items: center;
   text-align: center;
   justify-content: center;
-  
   flex-direction: row;
   
 }
+
 
 .company-name{
   font-size: 30px;
@@ -99,6 +99,7 @@ body{
   padding-left: 10px;
   padding-right: 10px;
   margin-left: 20px;
+  display: none;
 }
 .sign-in:hover{
   opacity: 0.8;

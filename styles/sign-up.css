@@ -5,7 +5,7 @@ body{
 
 .sign-up{
   width: 360px;
-  height: 500px;
+  height: 620px;
   margin: auto;
   background-color: white; 
 }
@@ -40,7 +40,7 @@ form input{
 .button-el{
   width: 320px;
   height: 35px;
-  margin-top: 20px;
+  margin-top: 10px;
   border: none;
   background-color: #49c1a2;
   color: white;
@@ -65,13 +65,37 @@ p{
 
 .already{
   text-align: center;
-  color: white;
+  color: black;
   font-size: 15px;
   margin-top: -10px;
   
 }
 
+.text{
+  margin-top: -10px;
+}
+
 .already a{
   color:black;
+  
 
+}
+.eye{
+  display: flex;
+  flex-direction: row;
+  justify-content:right;
+}
+
+#toggle-button{
+  color: gray;
+  text-decoration: none;
+  margin-top: -20px;
+  cursor: pointer;
+  margin-right: -12px;
+}
+#toggle-button:hover{
+  opacity: 0.6;
+}
+#toggle-button:active{
+  opacity: 0.8;
 }
