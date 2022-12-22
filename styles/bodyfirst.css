@@ -90,7 +90,7 @@
   .preview{
     grid-template-columns: 1fr 1fr;
     margin-top: -320px;
-    width: 100%;
+    width: 100%px;
   }
 }
 
