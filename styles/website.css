@@ -20,11 +20,16 @@
   height: 24px;
   margin-left: 30px;
   transition: all .8s;
-  
+  cursor: pointer;
 }
   
 .hamburger-menu:hover{
-  opacity: 0.8;
+  opacity: 0.6;
+  transition: 0.2s;
+}
+
+.hamburger-menu:active{
+  opacity: 0.4;
 }
 .left-section{
   align-items: center;
