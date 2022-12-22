@@ -4,6 +4,8 @@ const logout = document.querySelector(".text-el6")
 const social = document.querySelector(".text-el4")
 const test = document.querySelector(".text-el1")
 const specialist = document.querySelector(".text-el2")
+const contactEl = document.querySelector(".contact-icon")
+const Homer = document.querySelector(".home-icon")
 
 hamburgerEl.addEventListener("click", function(){
   navbar.classList.toggle("change");
@@ -24,4 +26,12 @@ test.addEventListener("click", function(){
 
 specialist.addEventListener("click",function(){
   window.open('https://www.icliniq.com/ask-a-doctor-online/diabetologist/diabetes', '_blank').focus();
+})
+
+contactEl.addEventListener("click", function(){
+  window.open('Contact-Us.html')
+})
+
+Homer.addEventListener("click", function(){
+  window.scrollTo(0,0);
 })
