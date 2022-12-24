@@ -20,7 +20,7 @@ submit.addEventListener("click", function(){
     localStorage.setItem('username', userName )
     localStorage.setItem('email-address',mail)
     localStorage.setItem('userPassword', userPwd)
-    window.open("index.html") 
+    window.open("index.html", "_self") 
   }
   else{
     alert("please fill the form")
