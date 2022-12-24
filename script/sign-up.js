@@ -5,35 +5,28 @@ function registration(){
   var userPwd = document.getElementById("password-el").value
   var userName = document.getElementById("userName").value
  
-  localStorage.setItem('firstName', first)
-  localStorage.setItem('lastName', last)
-  localStorage.setItem('username', userName )
-  localStorage.setItem('email-address',mail)
-  localStorage.setItem('userPassword', userPwd)
+  var fn = document.getElementById("first-name").value
+  var ln = document.getElementById("last-name").value
+  var un = document.getElementById("userName").value
+  var em = document.getElementById("email-el").value
+  var pw = document.getElementById("password-el").value
   
-  const fn = document.getElementById("first-name").value
- 
-  const un = document.getElementById("userName").value
- 
-  const pw = document.getElementById("password-el").value
-
-  if(fn === '' || un ==='' || pw === '' ){
-    console.log("fail")
+  
+  if(fn !== '' && ln !== '' && un !=='' && em !=='' && pw !==''){
+    localStorage.setItem('firstName', first)
+    localStorage.setItem('lastName', last)
+    localStorage.setItem('username', userName )
+    localStorage.setItem('email-address',mail)
+    localStorage.setItem('userPassword', userPwd)
+    document.location.href='index.html'
   }
+  
+  
+ 
 
-  else{document.location.href='index.html'}
-  const ln = document.getElementById("last-name").value
-  const em = document.getElementById("email-el").value
-
-  if( ln ===''|| em ===''){
-    console.log("ham")
-  }
-  else{document.location.href='index.html'}
+ 
   
 }
-
-
-
   
 
   
