@@ -28,9 +28,8 @@ function registration(){
   if( ln ===''|| em ===''){
     console.log("ham")
   }
-  else{
-    document.location.href='index.html'
-  }
+  else{document.location.href='index.html'}
+  
 }
 
 
