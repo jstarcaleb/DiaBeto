@@ -10,14 +10,31 @@ function registration(){
   localStorage.setItem('username', userName )
   localStorage.setItem('email-address',mail)
   localStorage.setItem('userPassword', userPwd)
-  document.location.href='index.html'
-  const fn = document.getElementById("first-name").value
-  const ln = document.getElementById("last-name").value
-  const un = document.getElementById("userName").value
-  const em = document.getElementById("email-el").value
-  const pw = document.getElementById("password-el").value
   
+  const fn = document.getElementById("first-name").value
+ 
+  const un = document.getElementById("userName").value
+ 
+  const pw = document.getElementById("password-el").value
+
+  if(fn === '' || un ==='' || pw === '' ){
+    console.log("fail")
+  }
+
+  else{document.location.href='index.html'}
+  const ln = document.getElementById("last-name").value
+  const em = document.getElementById("email-el").value
+
+  if( ln ===''|| em ===''){
+    console.log("ham")
+  }
+  else{
+    document.location.href='index.html'
+  }
 }
+
+
+
   
 
   
